@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ambient Sky — Live Weather Scene</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="scene"></canvas>
+
+<div class="overlay">
+  <div class="card">
+    <div class="search-row">
+      <input id="cityInput" type="text" placeholder="Search a city…" />
+      <button id="searchBtn" title="Search">🔍</button>
+      <button id="locBtn" title="Use my location">📍</button>
+    </div>
+
+    <div class="info-row">
+      <div class="temp" id="tempLabel">--°</div>
+      <div class="details">
+        <div id="cityLabel">Loading…</div>
+        <div id="condLabel">—</div>
+      </div>
+    </div>
+
+    <div class="footer-row">
+      <span class="clock" id="clockLabel">--:--</span>
+      <span class="status" id="statusLabel"></span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ambient-weather-scene",
+  "version": "1.0.0",
+  "description": "A full-screen animated day/night weather scene, driven by live weather data through a small Node/Express backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "init": "^0.1.2"
+  }
+}
